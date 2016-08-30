@@ -879,43 +879,16 @@ namespace Constant_Voltage
 
             Paragraph h = new Paragraph("Result sheet for constant voltage ");
             Paragraph p = new Paragraph("Discharge " + " " + "Total Head " + " " + "Input Power" + "    " + " Comb. Efficiency");
-            Paragraph p1 = new Paragraph(textBox1.Text + "               " + textBox2.Text + "                 " + textBox3.Text + "                       " + textBox4.Text);
-            Paragraph p2 = new Paragraph(textBox5.Text + "               " + textBox6.Text + "                 " + textBox7.Text + "                       " + textBox8.Text);
-            Paragraph p3 = new Paragraph(textBox9.Text + "               " + textBox10.Text + "                 " + textBox11.Text + "                       " + textBox12.Text);
-            Paragraph p4 = new Paragraph(textBox13.Text + "               " + textBox14.Text + "                 " + textBox15.Text + "                       " + textBox16.Text);
-            Paragraph p5 = new Paragraph(textBox17.Text + "               " + textBox18.Text + "                 " + textBox19.Text + "                       " + textBox20.Text);
-            Paragraph p6 = new Paragraph(textBox21.Text + "               " + textBox22.Text + "                 " + textBox23.Text + "                       " + textBox24.Text);
-            Paragraph p7 = new Paragraph(textBox25.Text + "               " + textBox26.Text + "                 " + textBox27.Text + "                       " + textBox28.Text);
-            Paragraph p8 = new Paragraph(textBox29.Text + "               " + textBox30.Text + "                 " + textBox31.Text + "                       " + textBox32.Text);
-            Paragraph p9 = new Paragraph(textBox33.Text + "               " + textBox34.Text + "                 " + textBox35.Text + "                       " + textBox36.Text);
-            Paragraph p10 = new Paragraph(textBox37.Text + "               " + textBox38.Text + "                 " + textBox39.Text + "                       " + textBox40.Text);
+     
 
 
             h.Alignment = Element.ALIGN_CENTER;
             p.Alignment = Element.ALIGN_CENTER;
-            p1.Alignment = Element.ALIGN_CENTER;
-            p2.Alignment = Element.ALIGN_CENTER;
-            p3.Alignment = Element.ALIGN_CENTER;
-            p4.Alignment = Element.ALIGN_CENTER;
-            p5.Alignment = Element.ALIGN_CENTER;
-            p6.Alignment = Element.ALIGN_CENTER;
-            p7.Alignment = Element.ALIGN_CENTER;
-            p8.Alignment = Element.ALIGN_CENTER;
-            p9.Alignment = Element.ALIGN_CENTER;
-            p10.Alignment = Element.ALIGN_CENTER;
+         
 
             document.Add(h);
             document.Add(p);
-            document.Add(p1);
-            document.Add(p2);
-            document.Add(p3);
-            document.Add(p4);
-            document.Add(p5);
-            document.Add(p6);
-            document.Add(p7);
-            document.Add(p8);
-            document.Add(p9);
-            document.Add(p10);
+        
 
 
             var imagechart = new MemoryStream();
